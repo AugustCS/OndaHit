@@ -8,7 +8,7 @@
 }
 @font-face{
 	font-family: 'Oswald';
-	src:url('../fonts/Lobster/Oswald-Regular.ttf');
+	src:url('../fonts/Oswald/Oswald-Regular.ttf');
 }
 a,span,img{
 	text-decoration: none;
@@ -158,9 +158,6 @@ a,span,img{
 	margin-top: 5px;
 	font-family: 'Lobster';
 }
-.box-in-art-three ul{
-	padding-top: 10px;
-}
 .box-in-art-three ul li{
 	display: inline-block;
 	vertical-align:top;
@@ -171,8 +168,6 @@ a,span,img{
 	font-size: 30px !important;
 	margin-right: 10px;
 	transition: all 0.1s linear;
-}
-.box-in-art-three ul li a:hover{
 }
 .box-menu{
 	background:white;
@@ -238,13 +233,16 @@ a,span,img{
 	float:right;
 	width: 30%;
 	height: 100%;
-	background:green;
+	padding:10px;
+	text-align: left;
 }
-.boxfirst-one img{
-	display: inline-block;
-	vertical-align: top;
+.boxfirst-one p{
+	font-size: 17px;
+}
+.boxfirst-one a{
 	width:100%;
-	height: 100%;
+	text-align: right;
+	font-size: 17px;
 }
 .boxfirst-two{
 	float:left;
@@ -330,7 +328,7 @@ a,span,img{
 }
 .box-programacion h2{
 	font-size: 30px;
-	font-family: 'Oswald-Regular';
+	font-family: 'Oswald';
 	color:white;
 	margin-bottom: 15px;
 }
@@ -367,6 +365,7 @@ a,span,img{
 	font-size:35px;
 	color:white;
 	text-decoration: bold;
+	font-family: 'Oswald';
 }
 /**codigo box-visto*/
 .box-visto{
