@@ -221,13 +221,14 @@ a,span,img{
 .box-body-first{
 	text-align: center;
 	width:100%;
-	height: 500px;
+	height: auto;
 	padding: 10px;
-	background:#D0D0D0;
+	background:#e5e5e5;
 }
 .box-body-first article{
 	display: inline-block;
 	vertical-align: top;
+	height: 500px;
 }
 .boxfirst-one{
 	float:right;
@@ -463,4 +464,61 @@ a,span,img{
 	font-size: 20px;
 	color:white;
 	margin-top: 10px;
+}
+
+/*************** ESTILOS BODY NOTICIAS.HTML *************/
+.banner-notice{
+	background: red;
+}
+.box-concept-notice{
+	background: white;
+	padding: 15px;
+	margin-top: 10px;
+	text-align: left;
+}
+.box-concept-notice a{
+	width:100%;
+	text-align: right;
+	padding: 10px;
+}
+.box-publicidad{
+	width:100%;
+	height: 400px;
+	margin-top: 25px;
+	background:#989898;
+	border-radius: 10px;
+}
+.box-lo-vistos{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+.box-lo-vistos h2{
+	font-size: 25px;
+	text-align: left;
+	padding:10px 0;
+	padding-left: 10px;
+	color:black;
+	text-decoration: bold;
+	margin-bottom: 5px;
+}
+.box-lo-vistos article{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	height: 200px;
+	margin-bottom: 5px;
+	margin-right: 8px;
+	background:white;
+}
+.box-lo-vistos article img{
+	display: inline-block;
+	vertical-align: top;
+	width:100%;
+	height:70%;
+}
+.box-lo-vistos article h3{
+	padding: 10px;
+	font-size: 18px;
 }
