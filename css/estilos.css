@@ -35,14 +35,31 @@ a,span,img{
 	display: none;
 }
 .box-header-fixed div{
-	height: 80px;
+	height: auto;
 	display: inline-block;
 	vertical-align: top;
 }
 .box-hd-fix1{
 	width: 20%;
 	float:left;
-	background:yellow;
+	background: blue;
+}
+.box-hd-fix1 img{
+	display: inline-block;
+	vertical-align: top;
+	width:100px;
+	height: 100px;
+}
+.box-fix-logo{
+	display: inline-block;
+	vertical-align: top;
+	background: red;
+	width:50%;
+}
+.box-fix-logo span{
+	padding-top: 15px;
+	font-size: 20px;
+	font-family: 'Lobster';
 }
 .box-hd-fix2{
 	width: 40%;
@@ -189,7 +206,7 @@ a,span,img{
 }
 .box-aside-left{
 	width: 190px;
-	height:500px;
+	height:97vh;
 	position:absolute;
 	top:10px;
 	left:-195px;
@@ -202,7 +219,7 @@ a,span,img{
 }
 .box-aside-right{
 	width: 190px;
-	height:500px;
+	height:97vh;
 	position:absolute;
 	top:10px;
 	right:-195px;
@@ -228,17 +245,17 @@ a,span,img{
 .box-body-first article{
 	display: inline-block;
 	vertical-align: top;
-	height: 500px;
+	height: 430px;
 }
 .boxfirst-one{
 	float:right;
-	width: 30%;
+	width: 20%;
 	height: 100%;
-	padding:10px;
+	padding:3px;
 	text-align: left;
 }
 .boxfirst-one p{
-	font-size: 17px;
+	font-size: 14px;
 }
 .boxfirst-one a{
 	width:100%;
@@ -247,7 +264,7 @@ a,span,img{
 }
 .boxfirst-two{
 	float:left;
-	width: 68%;
+	width: 78%;
 	height: 100%;
 	margin-right: 10px;
 }
@@ -521,4 +538,132 @@ a,span,img{
 .box-lo-vistos article h3{
 	padding: 10px;
 	font-size: 18px;
+}
+/*************** ESTILOS BODY NOTICIAS.HTML *************/
+.box-concept-notice-title{
+	background: white;
+	padding: 15px;
+	margin-top: 10px;
+	text-align: left;
+}
+.box-concept-notice-title h3{
+	font-size: 22px;
+	font-weight:  bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color:#434343;
+}
+.box-concept-notice-title p{
+	font-size: 18px;
+	color:#434343;
+}
+/*************** ESTILOS BODY CONCURSOS.HTML *************/
+.body-concursos{
+	padding: 30px;
+	background: #E6E6E6;
+	margin-top: 10px;
+}
+.title-swiper{
+	padding: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.box-body-concursos{
+	margin-top: 20px;
+}
+.box-publi{
+	width:100%;
+	height: 350px;
+	background: #E6E6E6;
+}
+.box-tex-con{
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	margin-top:15px;
+}
+.box-tex-con p{
+	font-size: 18px;
+}
+.box-slider-woo{
+	margin-top: 20px;
+}
+.box-slider-woo h3{
+	font-size: 22px;
+}
+.sli-concursos{
+	width:100%;
+	height: 300px;
+	padding: 10px 0;
+}
+.arti-sli{
+	height: 280px;
+}
+.arti-sli img{
+	display: inline-block;
+	vertical-align: top;
+	width:100%;
+	height: 100%;
+}
+/*************** ESTILOS BODY PROGRAMACION.HTML *************/
+.box-design-program{
+	padding: 20px;
+}
+.boxprograms{
+	width: 100%;
+	height: auto;
+	background: skyblue;
+	margin-top: 20px;
+	padding: 20px;
+}
+.boxprogram-l{
+	float:left;
+	width:60%;
+	height: auto;
+	padding: 10px;
+	background: blue;
+}
+.boxprogram-r{
+	float:right;
+	width:40%;
+	height: 500px;
+	padding: 10px;
+	background: orange;
+}
+.arti-in-bp{
+	background: yellow;
+	margin-top: 10px;
+}
+.arti-in-bp h2{
+	font-size: 22px;
+	padding: 15px;
+	border:2px solid black;
+}
+.arti-in-bp div{
+	padding: 10px;
+	font-size: 16px;
+	color:black;
+	font-family: monospace;
+	border:2px solid black;
+}
+.mos-lunes{
+	display: none;
+}
+.mos-martes{
+	display: none;
+}
+.mos-miercoles{
+	display: none;
+}
+.mos-jueves{
+	display: none;
+}
+.mos-viernes{
+	display:none;
+}
+.mos-sabado{
+	display:none;
+}
+.mos-domingo{
+	display:none;
 }

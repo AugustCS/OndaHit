@@ -9,6 +9,26 @@ $(document).ready(function(){
     	autoplay:3000,
     }) 
 
+	 $(".owl-carousel").owlCarousel({
+	 	margin:5,
+	 	loop:true,
+	 	nav:true
+	 });
+
+	 function mostrardia(titulo,cuadro){
+	 	$(titulo).click(function(){
+	 		$(cuadro).toggle("fast");
+	 	})
+	 }
+	
+	mostrardia(".tite-lunes",".mos-lunes");
+	mostrardia(".tite-martes",".mos-martes");
+	mostrardia(".tite-miercoles",".mos-miercoles");
+	mostrardia(".tite-jueves",".mos-jueves");
+	mostrardia(".tite-viernes",".mos-viernes");
+	mostrardia(".tite-sabado",".mos-sabado");
+	mostrardia(".tite-domingo",".mos-domingo");
+
 });
 
 $(window).scroll(function() {
