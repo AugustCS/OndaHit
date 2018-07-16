@@ -27,7 +27,7 @@ a,span,img{
 	width: 100%;
 	height: auto;
 	text-align: center;
-	background:pink;
+	background:white;
 	position:fixed;
 	top:0;
 	left:0;
@@ -35,14 +35,13 @@ a,span,img{
 	display: none;
 }
 .box-header-fixed div{
-	height: auto;
 	display: inline-block;
 	vertical-align: top;
 }
 .box-hd-fix1{
 	width: 20%;
 	float:left;
-	background: blue;
+	height: 110px;
 }
 .box-hd-fix1 img{
 	display: inline-block;
@@ -53,22 +52,66 @@ a,span,img{
 .box-fix-logo{
 	display: inline-block;
 	vertical-align: top;
-	background: red;
 	width:50%;
 }
 .box-fix-logo span{
-	padding-top: 15px;
+	padding-top: 10px;
 	font-size: 20px;
+	color:black;
 	font-family: 'Lobster';
 }
+.box-fix-logo img{
+	display: inline-block;
+	vertical-align: top;
+	width:70px;
+	height: 70px;
+}
 .box-hd-fix2{
-	width: 40%;
-	background:blue;
+	width: 55%;
+	margin-top: 40px;
+}
+.box-fix-nav{
+	width:100%;
+}
+.box-fix-nav ul li{
+	float:left;
+	width:25%;
+}
+.box-fix-nav ul li a{
+	color:black;
+	font-size: 22px;
+	font-family: 'Lobster';
+	border-bottom: 4px solid white;
+}
+.active-menu-fix{
+	border-bottom: 4px solid #FF8118 !important;
 }
 .box-hd-fix3{
 	width: 20%;
+	height: 110px;
 	float:right;
-	background:red;
+}
+.box-fix-sn{
+	width:100%;
+	height: 50%;
+}
+.box-fix-sn span{
+	font-size: 19px;
+	color:black;
+	padding: 0px;
+	margin-top: 2px;
+	font-family: 'Lobster';
+}
+.box-fix-sn ul li{
+	display: inline-block;
+	vertical-align:top;
+}
+.box-fix-sn ul li a{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 30px !important;
+	margin-right: 10px;
+	transition: all 0.1s linear;
 }
 .box-header-full{
 	width: 100%;
@@ -144,13 +187,12 @@ a,span,img{
 .box-search{
 	width:100%;
 	height: 50%;
-	padding: 3px;
 }
 .form-search{
 	padding:10px 0;
 	background:#ff0000;
 	border-radius: 5px;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 .form-search input[type="text"]{
 	padding:5px;
@@ -612,16 +654,17 @@ a,span,img{
 .boxprograms{
 	width: 100%;
 	height: auto;
-	background: skyblue;
 	margin-top: 20px;
 	padding: 20px;
 }
 .boxprogram-l{
 	float:left;
-	width:60%;
+	width:59%;
 	height: auto;
-	padding: 10px;
-	background: blue;
+	margin-right: 7px;
+	padding: 15px;
+	background: #FF3D3D;
+	border-radius: 10px;
 }
 .boxprogram-r{
 	float:right;
@@ -631,20 +674,22 @@ a,span,img{
 	background: orange;
 }
 .arti-in-bp{
-	background: yellow;
 	margin-top: 10px;
 }
 .arti-in-bp h2{
 	font-size: 22px;
 	padding: 15px;
-	border:2px solid black;
+	color:white;
+	background:#FF0000;
+	border-radius: 7px;
 }
 .arti-in-bp div{
 	padding: 10px;
 	font-size: 16px;
 	color:black;
+	border-radius: 7px;
+	background: #FF0000;
 	font-family: monospace;
-	border:2px solid black;
 }
 .mos-lunes{
 	display: none;
